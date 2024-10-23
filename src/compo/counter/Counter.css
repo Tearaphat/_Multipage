@@ -1,0 +1,28 @@
+.title{
+    color: rgb(255, 0, 0);
+    font-size: x-large;
+    text-align: center;
+}
+
+.value-counter{
+    font-size: xx-large;
+    margin: 0 0.5rem;
+}
+
+.counter-container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.counter-container button{
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+
+}
+
+

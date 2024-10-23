@@ -1,0 +1,69 @@
+/* Container สำหรับ Field และ Control Button */
+.container {
+    border: solid 1px rgb(1, 255, 1);
+    margin: 10px auto;
+    width: fit-content;
+    padding: 10px;
+}
+
+/* Field สำหรับการแสดงการเคลื่อนไหวของลูกบอล */
+.field {
+    border-radius: 5px;
+    background-image: url('../../../assets/image/wood-background.jpg');
+    background-size: 100%;
+    background-position: center;
+    border: 2px solid rgba(0, 0, 0, 0.394);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* สไตล์ของลูกบอล */
+.ball {
+    border: 1px solid rgb(0, 0, 0);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center;
+    transform: rotate(0deg);
+    background-size: 140%;
+    background-color: rgb(205, 255, 238);
+    position: absolute; /* ใช้ absolute เพื่อควบคุมตำแหน่ง */
+    animation: rotate linear infinite;
+}
+
+/* ปุ่มควบคุม */
+.control {
+    margin: 10px;
+}
+
+/* คีย์เฟรมสำหรับการหมุน */
+@keyframes rotate { 
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* สไตล์การหมุน */
+.rotate {
+    animation: rotate linear infinite;
+}
+
+/* สไตล์สำหรับปุ่มทั่วไป */
+.anime {
+    width: 75px;
+    height: 2.2rem;
+    font-size: 12px;
+}
+
+/* ปรับขนาดฟอนต์ของปุ่ม RUN */
+#run {
+    font-size: 12px;
+}
+
+/* ปุ่มที่มีคลาส .btn-primary */
+

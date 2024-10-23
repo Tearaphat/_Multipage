@@ -1,0 +1,17 @@
+.add-container{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    background-color: #ffffff;
+}
+.add-variables{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+.add-h2{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}

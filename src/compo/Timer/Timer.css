@@ -1,0 +1,33 @@
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.timer-container{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    background-color: #ffff;
+}
+
+input{
+    text-align: right;
+    font-size: x-large;
+    font-weight: bold;
+    width: 15rem;
+}
+
+.btn-container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-p{
+    display: flex;
+    justify-content: center;
+}
