@@ -2,7 +2,7 @@
   "name": "multipage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tearaphat.github.io/_multipage",
+  "homepage": "https://tearaphat.github.io/_Multipage", 
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
